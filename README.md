@@ -38,7 +38,6 @@ MongoDB
 
 ### Frontend (Web)
 - React
-- HTML, CSS, JavaScript
 
 ### Mobile
 - React Native
@@ -58,11 +57,6 @@ yanpos-fullstack/
 ├── web/ # React web application
 ├── mobile/ # React Native mobile app
 └── README.md
-
----
-
-## 📸 Screenshots
-*(Will be added)*
 
 ---
 
