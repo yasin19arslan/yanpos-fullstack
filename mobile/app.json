@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "YANPOS",
+    "slug": "yanmobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/yanposlogo.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/yanposlogo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.yanpos.mobile",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/yanposlogo.jpg",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "assetBundlePatterns": [
+      "**/*",
+      "assets/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "eff2ab0c-51b9-4cfe-aaea-4cd08970b567"
+      }
+    }
+  }
+}
