@@ -79,8 +79,6 @@ yanpos-fullstack/
 | GET | /api/orders | Sipariş geçmişi |
 | GET | /api/campaigns | Kampanyalar |
 
----
-
 ## ▶️ Kurulum & Çalıştırma
 
 ### 🔧 Backend
@@ -107,8 +105,8 @@ Kodu kopyala
 cd mobile
 npm install
 npx expo start
-
-🧠 Mimari Yaklaşım
+```
+##🧠 Mimari Yaklaşım
 
 Modüler klasör yapısı
 
@@ -142,4 +140,5 @@ Teknolojiler:
 Node.js • React • React Native • MongoDB
 
 🔗 GitHub: https://github.com/yasin19arslan
+
 
