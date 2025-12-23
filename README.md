@@ -106,7 +106,8 @@ cd mobile
 npm install
 npx expo start
 ```
-##🧠 Mimari Yaklaşım
+
+🧠 Mimari Yaklaşım
 
 Modüler klasör yapısı
 
