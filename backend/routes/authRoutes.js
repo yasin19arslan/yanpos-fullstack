@@ -1,0 +1,24 @@
+const express = require('express');
+const router = express.Router();
+const { protect } = require('../middleware/authMiddleware');
+const { 
+  register, 
+  login, 
+  getProfile,
+  updateProfile,
+  changePassword
+} = require('../controllers/authController');
+
+// Public routes
+router.post('/register', register);
+router.post('/login', login);
+
+// Protected routes
+router.route('/profile')
+  .get(protect, getProfile)
+  .put(protect, updateProfile);
+
+// Şifre değiştirme
+router.post('/change-password', protect, changePassword);
+
+module.exports = router; 
