@@ -12,9 +12,6 @@ yanpos-fullstack/
 ├── web/ → React Web Uygulaması (Admin & Kullanıcı Paneli)
 ├── mobile/ → React Native (Expo) Mobil Uygulama
 
-yaml
-Kodu kopyala
-
 ---
 
 ## ⚙️ Kullanılan Teknolojiler
@@ -110,7 +107,9 @@ Kodu kopyala
 cd mobile
 npm install
 npx expo start
+
 🧠 Mimari Yaklaşım
+
 Modüler klasör yapısı
 
 MVC mimarisi (Backend)
@@ -122,6 +121,7 @@ Tek backend API → Web & Mobile ortak kullanım
 Ölçeklenebilir ve genişletilebilir yapı
 
 🎯 Proje Amacı
+
 Bu proje;
 
 Full Stack & Mobile geliştirme pratiği
@@ -133,6 +133,7 @@ Profesyonel mimari tasarım
 amacıyla geliştirilmiştir.
 
 👨‍💻 Geliştirici
+
 Yasin Arslan
 Computer Engineering Student
 Full Stack & Mobile Developer
@@ -141,3 +142,4 @@ Teknolojiler:
 Node.js • React • React Native • MongoDB
 
 🔗 GitHub: https://github.com/yasin19arslan
+
